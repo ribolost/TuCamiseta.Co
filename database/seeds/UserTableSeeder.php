@@ -37,6 +37,18 @@ class UserTableSeeder extends Seeder
 				'created_at'=> new DateTime,
 				'updated_at'=> new DateTime
 			],
+			[
+				'name' 		=> 'Jorge', 
+				'last_name' => 'Alonso', 
+				'email' 	=> 'jorginho@hotmail.com', 
+				'user' 		=> 'jotge',
+				'password' 	=> \Hash::make('654321'),
+				'type' 		=> 'artist',
+				'active' 	=> 1,
+				'address' 	=> 'Madrid',
+				'created_at'=> new DateTime,
+				'updated_at'=> new DateTime
+			],
 
 		);
 
