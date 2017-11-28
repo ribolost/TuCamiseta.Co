@@ -114,7 +114,7 @@ footer
 	background: #8d8888;
 	text-align: center;
 	position: relative;
-	top: 100px;
+	top: 300px;
 }
 
 footer p
@@ -146,7 +146,7 @@ ul.redes li a
 position: relative;
 max-width: 100%;
 width: 100%;
-top: 100px;
+top: 210px;
 }
 img {
 width: 100%;
@@ -191,7 +191,7 @@ transition: all 0.3s ease-in-out;
 #slider
 {
 	position: relative;
-	top: 95px;
+	top: 200px;
 	left: 20px;
 	right: 20px;
 	width: 1300px;
