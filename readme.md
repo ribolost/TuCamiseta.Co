@@ -14,4 +14,6 @@
 5. Ejecutar el comando: php artisan migrate:install, para que crear la tabla de las migraciones
 6. Ejecutar el comando php artisan migrate, para que crear las tablas en la base de datos.
 7. Ejecutar el comando: php artisan db:seed, para cargar los datos de prueba en las tablas correspondientes.
-8. Ejecutar el compando: php artisan serve, para hacer correr la aplicación con el servidor que viene incluido en Laravel.
+8. Ejecutar el comando: php artisan serve, para hacer correr la aplicación con el servidor que viene incluido en Laravel.
+
+## Nota: para la conocer sobre laravel 5.5 -> [Documentación Laravel](https://laravel.com/docs/5.5 "Documentación Laravel 5.5") 
