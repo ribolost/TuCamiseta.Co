@@ -1,22 +1,19 @@
 <nav class="navbar navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <image class= "image-responsive" src ="/images/TuCamiseta.png">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-
       <a class="navbar-brand main-title" href="{{ route('home') }}">
-        TuCamiseta.co
-        
+        <image src="images/TuCamiseta.png" alt="" id="LogoImg">
       </a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <p class="navbar-text">You use it, you create it</p> 
+     
       <a class="button my-2 my-sm-0 navbar-right"  href="{{ route('login-get') }}" role="button" id="SignInBtn"><span>Sign In</span></a>
       <a class="navbar-brand navbar-right" href="{{ route('register-get') }}">Sign Up</a></li>
       <a class="navbar-brand navbar-right" href="#">About Us</a></li>
